@@ -1,16 +1,16 @@
 # ImageSorter
 
-ImageSorter is An image sorter that uses machine learning to sort your images automagically.
+ImageSorter is an image sorter that uses machine learning to sort your images automagically.
 
 ### Basic usage of the tool
 
-Select a folder with image files in in by clicking the folder selector and the first image will be loaded.
+Select a folder with image files in it by clicking the folder selector and selecting a folder. The first image will then be loaded from that folder in the main view.
 
-Create a new label which creates a new folder the folder create by called sorted.
+Create a new label which creates a new folder in the folder created by image sorter called sorted.
 
-Double click on the label to put the displayed image into the folder, loading the next image to be sorted.
+Double click on the label to put the displayed image into the folder. Image sorter will automatically load the next image to be sorted.
 
-Repeat
+Repeat until 20 images have been put into at least two folders. This is the manual part of the training but will soon be automated.
 
 ### Install guide
 ```
