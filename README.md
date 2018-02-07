@@ -14,5 +14,9 @@ Repeat
 
 ### Install guide
 ```
-pip2 install -r requirements.txt
+sudo pacman -S python2-kivy
+
+or with pip
+
+sudo pip2 install -r requirements.txt
 ```
